@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Cache-Control" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
+  <link rel="shortcut icon" href="img/icon.jpg">
+  <link rel="icon" type="image/png" href="img/icon.jpg" sizes="192x192">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icon.jpg">
+  <title>标题 VTB主页模板</title>
+  <link rel="stylesheet" href="layui/css/layui.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div>
+  <ul class="layui-nav" lay-filter="">
+    <li class="layui-nav-item layui-this"><a href="">首页</a></li>
+    <li class="layui-nav-item"><a href="https://space.bilibili.com/3709626/" target="_blank">B站主页</a></li>
+    <li class="layui-nav-item"><a href="qqGroup.html" target="view_frame">QQ群</a></li>
+    <li class="layui-nav-item"><a href="emoticon.html" target="view_frame">表情包</a></li>
+    <li class="layui-nav-item"><a href="information.html" target="view_frame">特殊情报</a></li>
+    <li class="layui-nav-item"><a href="privilege.html" target="view_frame">特典</a></li>
+    <li class="layui-nav-item"><a href="groupQuotations.html" target="view_frame">群友语录</a></li>
+    <li class="layui-nav-item"><a href="captainVideo.html" target="view_frame">dd切片</a></li>
+    <li class="layui-nav-item"><a href="liveCover.html" target="view_frame">直播封面</a></li>
+    <li class="layui-nav-item"><a href="auxiliaryProgram.html" target="view_frame">辅助程序</a></li>
+    <li class="layui-nav-item"><a href="about.html" target="view_frame">关于</a></li>
+    <li class="layui-nav-item">
+      <a href="javascript:;">language</a>
+      <dl class="layui-nav-child"> <!-- 二级菜单 -->
+        <dd><a href="javascript:;" onclick="language_change('ch')">中文</a></dd>
+        <dd><a href="javascript:;" onclick="language_change('jp')">日本語</a></dd>
+        <dd><a href="javascript:;" onclick="language_change('en')">EN</a></dd>
+      </dl>
+    </li>
+  </ul>
+</div>
+<div id="iframe_div">
+  <iframe id="iframe1" src="homepage.html" name="view_frame"></iframe>
+</div>
+
+
+
+</body>
+<script src="js/index.js"></script>
+<!-- 引入 layui.js 的 <script> 标签最好放置在 html 末尾 -->
+<script src="layui/layui.js"></script>
+</script>
+</html>

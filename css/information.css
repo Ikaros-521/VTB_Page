@@ -1,0 +1,25 @@
+fieldset.layui-elem-field {
+    margin: 10px;
+    border: 1px solid #9c9c9c;
+}
+
+.layui-card {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.44);
+}
+
+fieldset {
+    border-radius: 5px;
+}
+
+#right_nav {
+    position: fixed;
+    right: 1%;
+    top: 10%;
+    z-index: 1;
+    background: #6b6b6b;
+    width: 150px;
+}
+
+.layui-card-body a {
+    text-decoration: underline;
+}
